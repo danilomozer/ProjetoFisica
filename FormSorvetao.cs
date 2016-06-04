@@ -10,18 +10,18 @@ using System.Windows.Forms;
 
 namespace ProjetoFisica
 {
-    public partial class FormLancHorizPratica : Form
+    public partial class FormSorvetao : Form
     {
-        public FormLancHorizPratica()
+        public FormSorvetao()
         {
             InitializeComponent();
         }
 
         private void btn_Voltar_Click(object sender, EventArgs e)
         {
-            FormLancHorizTeoria lancHorizTeoria = new FormLancHorizTeoria();
+            FormLancHorizPratica lancHorizPratica = new FormLancHorizPratica();
             Hide();
-            lancHorizTeoria.Show();
+            lancHorizPratica.Show();
         }
     }
 }
