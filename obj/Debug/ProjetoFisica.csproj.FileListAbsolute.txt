@@ -1,0 +1,11 @@
+C:\Users\Vitor\Desktop\Projeto de Física\ProjetoFisica\bin\Debug\ProjetoFisica.exe.config
+C:\Users\Vitor\Desktop\Projeto de Física\ProjetoFisica\bin\Debug\ProjetoFisica.exe
+C:\Users\Vitor\Desktop\Projeto de Física\ProjetoFisica\bin\Debug\ProjetoFisica.pdb
+C:\Users\Vitor\Desktop\Projeto de Física\ProjetoFisica\obj\Debug\ProjetoFisica.csprojResolveAssemblyReference.cache
+C:\Users\Vitor\Desktop\Projeto de Física\ProjetoFisica\obj\Debug\ProjetoFisica.FormMenu.resources
+C:\Users\Vitor\Desktop\Projeto de Física\ProjetoFisica\obj\Debug\ProjetoFisica.FormLancHorizTeoria.resources
+C:\Users\Vitor\Desktop\Projeto de Física\ProjetoFisica\obj\Debug\ProjetoFisica.Properties.Resources.resources
+C:\Users\Vitor\Desktop\Projeto de Física\ProjetoFisica\obj\Debug\ProjetoFisica.csproj.GenerateResource.Cache
+C:\Users\Vitor\Desktop\Projeto de Física\ProjetoFisica\obj\Debug\ProjetoFisica.exe
+C:\Users\Vitor\Desktop\Projeto de Física\ProjetoFisica\obj\Debug\ProjetoFisica.pdb
+C:\Users\Vitor\Desktop\Projeto de Física\ProjetoFisica\obj\Debug\ProjetoFisica.FormLancHorizPratica.resources
