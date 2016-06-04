@@ -34,7 +34,7 @@
             // 
             // btn_Testar_Conhecimentos
             // 
-            this.btn_Testar_Conhecimentos.Location = new System.Drawing.Point(686, 459);
+            this.btn_Testar_Conhecimentos.Location = new System.Drawing.Point(691, 376);
             this.btn_Testar_Conhecimentos.Name = "btn_Testar_Conhecimentos";
             this.btn_Testar_Conhecimentos.Size = new System.Drawing.Size(123, 23);
             this.btn_Testar_Conhecimentos.TabIndex = 0;
@@ -44,7 +44,7 @@
             // 
             // btn_Voltar
             // 
-            this.btn_Voltar.Location = new System.Drawing.Point(12, 459);
+            this.btn_Voltar.Location = new System.Drawing.Point(17, 376);
             this.btn_Voltar.Name = "btn_Voltar";
             this.btn_Voltar.Size = new System.Drawing.Size(75, 23);
             this.btn_Voltar.TabIndex = 1;
@@ -56,7 +56,7 @@
             // 
             this.AutoScaleDimensions = new System.Drawing.SizeF(6F, 13F);
             this.AutoScaleMode = System.Windows.Forms.AutoScaleMode.Font;
-            this.ClientSize = new System.Drawing.Size(821, 494);
+            this.ClientSize = new System.Drawing.Size(836, 414);
             this.Controls.Add(this.btn_Voltar);
             this.Controls.Add(this.btn_Testar_Conhecimentos);
             this.Name = "FormLancHorizTeoria";

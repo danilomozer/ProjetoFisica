@@ -69,8 +69,8 @@
             // 
             this.comboBox1.FormattingEnabled = true;
             this.comboBox1.Items.AddRange(new object[] {
-            "y = yo + vot + 1/2at²",
-            "x = xo + vt"});
+            "x = xo + vt",
+            "y = yo + vot + 1/2at²"});
             this.comboBox1.Location = new System.Drawing.Point(121, 150);
             this.comboBox1.Name = "comboBox1";
             this.comboBox1.Size = new System.Drawing.Size(121, 21);
@@ -84,6 +84,7 @@
             this.btn_Utilizar.TabIndex = 6;
             this.btn_Utilizar.Text = "Utilizar";
             this.btn_Utilizar.UseVisualStyleBackColor = true;
+            this.btn_Utilizar.Click += new System.EventHandler(this.btn_Utilizar_Click);
             // 
             // btn_Ajuda
             // 

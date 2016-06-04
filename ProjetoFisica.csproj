@@ -70,6 +70,12 @@
     <Compile Include="FormSorvetao.Designer.cs">
       <DependentUpon>FormSorvetao.cs</DependentUpon>
     </Compile>
+    <Compile Include="FormSorvete.cs">
+      <SubType>Form</SubType>
+    </Compile>
+    <Compile Include="FormSorvete.Designer.cs">
+      <DependentUpon>FormSorvete.cs</DependentUpon>
+    </Compile>
     <Compile Include="Program.cs" />
     <Compile Include="Properties\AssemblyInfo.cs" />
     <EmbeddedResource Include="FormLancHorizPratica.resx">
@@ -83,6 +89,9 @@
     </EmbeddedResource>
     <EmbeddedResource Include="FormSorvetao.resx">
       <DependentUpon>FormSorvetao.cs</DependentUpon>
+    </EmbeddedResource>
+    <EmbeddedResource Include="FormSorvete.resx">
+      <DependentUpon>FormSorvete.cs</DependentUpon>
     </EmbeddedResource>
     <EmbeddedResource Include="Properties\Resources.resx">
       <Generator>ResXFileCodeGenerator</Generator>

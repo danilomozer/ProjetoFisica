@@ -9,3 +9,5 @@ C:\Users\Vitor\Desktop\Projeto de Física\ProjetoFisica\obj\Debug\ProjetoFisica.
 C:\Users\Vitor\Desktop\Projeto de Física\ProjetoFisica\obj\Debug\ProjetoFisica.exe
 C:\Users\Vitor\Desktop\Projeto de Física\ProjetoFisica\obj\Debug\ProjetoFisica.pdb
 C:\Users\Vitor\Desktop\Projeto de Física\ProjetoFisica\obj\Debug\ProjetoFisica.FormLancHorizPratica.resources
+C:\Users\Vitor\Desktop\Projeto de Física\ProjetoFisica\obj\Debug\ProjetoFisica.FormSorvetao.resources
+C:\Users\Vitor\Desktop\Projeto de Física\ProjetoFisica\obj\Debug\ProjetoFisica.FormSorvete.resources

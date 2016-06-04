@@ -21,7 +21,25 @@ namespace ProjetoFisica
         {
             FormLancHorizTeoria lancHorizTeoria = new FormLancHorizTeoria();
             Hide();
-            lancHorizTeoria.Show();
+            lancHorizTeoria.ShowDialog();
+        }
+
+        private void btn_Utilizar_Click(object sender, EventArgs e)
+        {
+            if (comboBox1.SelectedIndex == 0)
+            {
+                FormSorvete sorvete = new FormSorvete();
+                sorvete.ShowDialog();
+            }
+            else if (comboBox1.SelectedIndex == 1)
+            {
+                FormSorvetao sorvetao = new FormSorvetao();
+                sorvetao.ShowDialog();
+            }
+            else
+            {
+                MessageBox.Show("Selecione uma opção válida");
+            }
         }
     }
 }

@@ -14,7 +14,7 @@ namespace ProjetoFisica
         {
             FormLancHorizTeoria lancHorizTeoria = new FormLancHorizTeoria();
             Hide();
-            lancHorizTeoria.Show();
+            lancHorizTeoria.ShowDialog();
         }
     }
 }

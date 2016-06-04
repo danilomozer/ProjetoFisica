@@ -14,14 +14,14 @@ namespace ProjetoFisica
         {
             FormMenu menu = new FormMenu();
             Hide();
-            menu.Show();
+            menu.ShowDialog();
         }
 
         private void btn_Testar_Conhecimentos_Click(object sender, EventArgs e)
         {
             FormLancHorizPratica lancHorizPratica = new FormLancHorizPratica();
             Hide();
-            lancHorizPratica.Show();
+            lancHorizPratica.ShowDialog();
         }
     }
 }
