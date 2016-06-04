@@ -76,6 +76,7 @@
     <Compile Include="FormSorvete.Designer.cs">
       <DependentUpon>FormSorvete.cs</DependentUpon>
     </Compile>
+    <Compile Include="Formulas.cs" />
     <Compile Include="Program.cs" />
     <Compile Include="Properties\AssemblyInfo.cs" />
     <EmbeddedResource Include="FormLancHorizPratica.resx">

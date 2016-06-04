@@ -47,9 +47,9 @@
             this.label1.AutoSize = true;
             this.label1.Location = new System.Drawing.Point(13, 13);
             this.label1.Name = "label1";
-            this.label1.Size = new System.Drawing.Size(108, 13);
+            this.label1.Size = new System.Drawing.Size(114, 13);
             this.label1.TabIndex = 0;
-            this.label1.Text = "Equação : x = xo + vt";
+            this.label1.Text = "Equação : x = xo + vot";
             // 
             // btnVoltar
             // 
@@ -116,9 +116,9 @@
             this.label4.AutoSize = true;
             this.label4.Location = new System.Drawing.Point(10, 123);
             this.label4.Name = "label4";
-            this.label4.Size = new System.Drawing.Size(60, 13);
+            this.label4.Size = new System.Drawing.Size(90, 13);
             this.label4.TabIndex = 8;
-            this.label4.Text = "Velocidade";
+            this.label4.Text = "Velocidade Inicial";
             // 
             // textBox3
             // 
