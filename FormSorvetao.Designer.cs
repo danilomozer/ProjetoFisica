@@ -47,17 +47,19 @@
             // label1
             // 
             this.label1.AutoSize = true;
-            this.label1.Location = new System.Drawing.Point(12, 9);
+            this.label1.Location = new System.Drawing.Point(16, 11);
+            this.label1.Margin = new System.Windows.Forms.Padding(4, 0, 4, 0);
             this.label1.Name = "label1";
-            this.label1.Size = new System.Drawing.Size(155, 13);
+            this.label1.Size = new System.Drawing.Size(202, 17);
             this.label1.TabIndex = 0;
             this.label1.Text = "Equação : y = yo + vot + 1/2at²";
             // 
             // btn_Voltar
             // 
-            this.btn_Voltar.Location = new System.Drawing.Point(15, 226);
+            this.btn_Voltar.Location = new System.Drawing.Point(20, 278);
+            this.btn_Voltar.Margin = new System.Windows.Forms.Padding(4, 4, 4, 4);
             this.btn_Voltar.Name = "btn_Voltar";
-            this.btn_Voltar.Size = new System.Drawing.Size(75, 23);
+            this.btn_Voltar.Size = new System.Drawing.Size(100, 28);
             this.btn_Voltar.TabIndex = 1;
             this.btn_Voltar.Text = "Voltar";
             this.btn_Voltar.UseVisualStyleBackColor = true;
@@ -65,9 +67,10 @@
             // 
             // btn_Calcular
             // 
-            this.btn_Calcular.Location = new System.Drawing.Point(207, 226);
+            this.btn_Calcular.Location = new System.Drawing.Point(276, 278);
+            this.btn_Calcular.Margin = new System.Windows.Forms.Padding(4, 4, 4, 4);
             this.btn_Calcular.Name = "btn_Calcular";
-            this.btn_Calcular.Size = new System.Drawing.Size(75, 23);
+            this.btn_Calcular.Size = new System.Drawing.Size(100, 28);
             this.btn_Calcular.TabIndex = 2;
             this.btn_Calcular.Text = "Calcular";
             this.btn_Calcular.UseVisualStyleBackColor = true;
@@ -75,97 +78,113 @@
             // label2
             // 
             this.label2.AutoSize = true;
-            this.label2.Location = new System.Drawing.Point(12, 57);
+            this.label2.Location = new System.Drawing.Point(16, 70);
+            this.label2.Margin = new System.Windows.Forms.Padding(4, 0, 4, 0);
             this.label2.Name = "label2";
-            this.label2.Size = new System.Drawing.Size(75, 13);
+            this.label2.Size = new System.Drawing.Size(97, 17);
             this.label2.TabIndex = 3;
             this.label2.Text = "Posição Inicial";
             // 
             // txtPosicaoInicial
             // 
-            this.txtPosicaoInicial.Location = new System.Drawing.Point(117, 50);
+            this.txtPosicaoInicial.Location = new System.Drawing.Point(156, 62);
+            this.txtPosicaoInicial.Margin = new System.Windows.Forms.Padding(4, 4, 4, 4);
             this.txtPosicaoInicial.Name = "txtPosicaoInicial";
-            this.txtPosicaoInicial.Size = new System.Drawing.Size(100, 20);
+            this.txtPosicaoInicial.Size = new System.Drawing.Size(132, 22);
             this.txtPosicaoInicial.TabIndex = 4;
+            this.txtPosicaoInicial.Leave += new System.EventHandler(this.txtPosicaoInicial_Leave);
             // 
             // label3
             // 
             this.label3.AutoSize = true;
-            this.label3.Location = new System.Drawing.Point(12, 93);
+            this.label3.Location = new System.Drawing.Point(16, 114);
+            this.label3.Margin = new System.Windows.Forms.Padding(4, 0, 4, 0);
             this.label3.Name = "label3";
-            this.label3.Size = new System.Drawing.Size(70, 13);
+            this.label3.Size = new System.Drawing.Size(92, 17);
             this.label3.TabIndex = 5;
             this.label3.Text = "Posição Final";
             // 
             // txtPosicaoFinal
             // 
-            this.txtPosicaoFinal.Location = new System.Drawing.Point(117, 86);
+            this.txtPosicaoFinal.Location = new System.Drawing.Point(156, 106);
+            this.txtPosicaoFinal.Margin = new System.Windows.Forms.Padding(4, 4, 4, 4);
             this.txtPosicaoFinal.Name = "txtPosicaoFinal";
-            this.txtPosicaoFinal.Size = new System.Drawing.Size(100, 20);
+            this.txtPosicaoFinal.Size = new System.Drawing.Size(132, 22);
             this.txtPosicaoFinal.TabIndex = 6;
+            this.txtPosicaoFinal.Leave += new System.EventHandler(this.txtPosicaoFinal_Leave);
             // 
             // label4
             // 
             this.label4.AutoSize = true;
-            this.label4.Location = new System.Drawing.Point(12, 127);
+            this.label4.Location = new System.Drawing.Point(16, 156);
+            this.label4.Margin = new System.Windows.Forms.Padding(4, 0, 4, 0);
             this.label4.Name = "label4";
-            this.label4.Size = new System.Drawing.Size(90, 13);
+            this.label4.Size = new System.Drawing.Size(117, 17);
             this.label4.TabIndex = 7;
             this.label4.Text = "Velocidade Inicial";
             // 
             // txtVelocidadeInicial
             // 
-            this.txtVelocidadeInicial.Location = new System.Drawing.Point(117, 120);
+            this.txtVelocidadeInicial.Location = new System.Drawing.Point(156, 148);
+            this.txtVelocidadeInicial.Margin = new System.Windows.Forms.Padding(4, 4, 4, 4);
             this.txtVelocidadeInicial.Name = "txtVelocidadeInicial";
-            this.txtVelocidadeInicial.Size = new System.Drawing.Size(100, 20);
+            this.txtVelocidadeInicial.Size = new System.Drawing.Size(132, 22);
             this.txtVelocidadeInicial.TabIndex = 8;
+            this.txtVelocidadeInicial.Leave += new System.EventHandler(this.txtVelocidadeInicial_Leave);
             // 
             // label5
             // 
             this.label5.AutoSize = true;
-            this.label5.Location = new System.Drawing.Point(12, 163);
+            this.label5.Location = new System.Drawing.Point(16, 201);
+            this.label5.Margin = new System.Windows.Forms.Padding(4, 0, 4, 0);
             this.label5.Name = "label5";
-            this.label5.Size = new System.Drawing.Size(40, 13);
+            this.label5.Size = new System.Drawing.Size(52, 17);
             this.label5.TabIndex = 9;
             this.label5.Text = "Tempo";
             // 
             // txtTempo
             // 
-            this.txtTempo.Location = new System.Drawing.Point(117, 156);
+            this.txtTempo.Location = new System.Drawing.Point(156, 192);
+            this.txtTempo.Margin = new System.Windows.Forms.Padding(4, 4, 4, 4);
             this.txtTempo.Name = "txtTempo";
-            this.txtTempo.Size = new System.Drawing.Size(100, 20);
+            this.txtTempo.Size = new System.Drawing.Size(132, 22);
             this.txtTempo.TabIndex = 10;
+            this.txtTempo.Leave += new System.EventHandler(this.txtTempo_Leave);
             // 
             // label6
             // 
             this.label6.AutoSize = true;
-            this.label6.Location = new System.Drawing.Point(12, 193);
+            this.label6.Location = new System.Drawing.Point(16, 238);
+            this.label6.Margin = new System.Windows.Forms.Padding(4, 0, 4, 0);
             this.label6.Name = "label6";
-            this.label6.Size = new System.Drawing.Size(61, 13);
+            this.label6.Size = new System.Drawing.Size(79, 17);
             this.label6.TabIndex = 11;
             this.label6.Text = "Aceleração";
             // 
             // txtAceleracao
             // 
-            this.txtAceleracao.Location = new System.Drawing.Point(117, 186);
+            this.txtAceleracao.Location = new System.Drawing.Point(156, 229);
+            this.txtAceleracao.Margin = new System.Windows.Forms.Padding(4, 4, 4, 4);
             this.txtAceleracao.Name = "txtAceleracao";
-            this.txtAceleracao.Size = new System.Drawing.Size(100, 20);
+            this.txtAceleracao.Size = new System.Drawing.Size(132, 22);
             this.txtAceleracao.TabIndex = 12;
+            this.txtAceleracao.Leave += new System.EventHandler(this.txtAceleracao_Leave);
             // 
             // btn_Ajuda
             // 
-            this.btn_Ajuda.Location = new System.Drawing.Point(126, 226);
+            this.btn_Ajuda.Location = new System.Drawing.Point(168, 278);
+            this.btn_Ajuda.Margin = new System.Windows.Forms.Padding(4, 4, 4, 4);
             this.btn_Ajuda.Name = "btn_Ajuda";
-            this.btn_Ajuda.Size = new System.Drawing.Size(75, 23);
+            this.btn_Ajuda.Size = new System.Drawing.Size(100, 28);
             this.btn_Ajuda.TabIndex = 13;
             this.btn_Ajuda.Text = "Ajuda";
             this.btn_Ajuda.UseVisualStyleBackColor = true;
             // 
             // FormSorvetao
             // 
-            this.AutoScaleDimensions = new System.Drawing.SizeF(6F, 13F);
+            this.AutoScaleDimensions = new System.Drawing.SizeF(8F, 16F);
             this.AutoScaleMode = System.Windows.Forms.AutoScaleMode.Font;
-            this.ClientSize = new System.Drawing.Size(294, 259);
+            this.ClientSize = new System.Drawing.Size(392, 319);
             this.Controls.Add(this.btn_Ajuda);
             this.Controls.Add(this.txtAceleracao);
             this.Controls.Add(this.label6);
@@ -180,6 +199,7 @@
             this.Controls.Add(this.btn_Calcular);
             this.Controls.Add(this.btn_Voltar);
             this.Controls.Add(this.label1);
+            this.Margin = new System.Windows.Forms.Padding(4, 4, 4, 4);
             this.Name = "FormSorvetao";
             this.Text = "Equação de Torricelli";
             this.ResumeLayout(false);
