@@ -5,16 +5,33 @@ namespace ProjetoFisica
 {
     public partial class FormMenu : Form
     {
+        #region Construtor
         public FormMenu()
         {
             InitializeComponent();
         }
+        #endregion
 
-        private void btn_Lanc_Horizontal_Click(object sender, EventArgs e)
+        #region Button
+        private void btn_Teoria_Click(object sender, EventArgs e)
         {
-            FormLancHorizTeoria lancHorizTeoria = new FormLancHorizTeoria();
+            FormLancHorizTeoria teoria = new FormLancHorizTeoria();
             Hide();
-            lancHorizTeoria.ShowDialog();
+            teoria.ShowDialog();
         }
+
+        private void btn_Exercicios_Click(object sender, EventArgs e)
+        {
+            FormLancHorizPratica pratica = new FormLancHorizPratica();
+            Hide();
+            pratica.ShowDialog();
+        }
+
+        private void btn_Sair_Click(object sender, EventArgs e)
+        {
+            System.Diagnostics.Process.GetCurrentProcess().Kill();
+            Application.Exit();
+        }
+        #endregion
     }
 }

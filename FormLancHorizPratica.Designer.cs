@@ -48,7 +48,7 @@
             // 
             // btn_Voltar
             // 
-            this.btn_Voltar.Location = new System.Drawing.Point(15, 274);
+            this.btn_Voltar.Location = new System.Drawing.Point(15, 203);
             this.btn_Voltar.Name = "btn_Voltar";
             this.btn_Voltar.Size = new System.Drawing.Size(75, 23);
             this.btn_Voltar.TabIndex = 1;
@@ -88,18 +88,19 @@
             // 
             // btn_Ajuda
             // 
-            this.btn_Ajuda.Location = new System.Drawing.Point(264, 274);
+            this.btn_Ajuda.Location = new System.Drawing.Point(264, 203);
             this.btn_Ajuda.Name = "btn_Ajuda";
             this.btn_Ajuda.Size = new System.Drawing.Size(75, 23);
             this.btn_Ajuda.TabIndex = 7;
-            this.btn_Ajuda.Text = "Ajuda";
+            this.btn_Ajuda.Text = "Gabarito";
             this.btn_Ajuda.UseVisualStyleBackColor = true;
+            this.btn_Ajuda.Click += new System.EventHandler(this.btn_Ajuda_Click);
             // 
             // FormLancHorizPratica
             // 
             this.AutoScaleDimensions = new System.Drawing.SizeF(6F, 13F);
             this.AutoScaleMode = System.Windows.Forms.AutoScaleMode.Font;
-            this.ClientSize = new System.Drawing.Size(362, 309);
+            this.ClientSize = new System.Drawing.Size(368, 246);
             this.Controls.Add(this.btn_Ajuda);
             this.Controls.Add(this.btn_Utilizar);
             this.Controls.Add(this.comboBox1);

@@ -1,6 +1,6 @@
 ﻿namespace ProjetoFisica
 {
-    partial class FormMenu
+    partial class FormLancHorizontal
     {
         /// <summary>
         /// Required designer variable.
@@ -30,62 +30,50 @@
         {
             this.btn_Teoria = new System.Windows.Forms.Button();
             this.btn_Exercicios = new System.Windows.Forms.Button();
-            this.label1 = new System.Windows.Forms.Label();
-            this.btn_Sair = new System.Windows.Forms.Button();
+            this.btn_Voltar = new System.Windows.Forms.Button();
             this.SuspendLayout();
             // 
             // btn_Teoria
             // 
-            this.btn_Teoria.Location = new System.Drawing.Point(27, 65);
+            this.btn_Teoria.Location = new System.Drawing.Point(42, 49);
             this.btn_Teoria.Name = "btn_Teoria";
-            this.btn_Teoria.Size = new System.Drawing.Size(130, 23);
-            this.btn_Teoria.TabIndex = 1;
+            this.btn_Teoria.Size = new System.Drawing.Size(75, 23);
+            this.btn_Teoria.TabIndex = 0;
             this.btn_Teoria.Text = "Teoria";
             this.btn_Teoria.UseVisualStyleBackColor = true;
             this.btn_Teoria.Click += new System.EventHandler(this.btn_Teoria_Click);
             // 
             // btn_Exercicios
             // 
-            this.btn_Exercicios.Location = new System.Drawing.Point(183, 65);
+            this.btn_Exercicios.Location = new System.Drawing.Point(169, 49);
             this.btn_Exercicios.Name = "btn_Exercicios";
-            this.btn_Exercicios.Size = new System.Drawing.Size(130, 23);
-            this.btn_Exercicios.TabIndex = 2;
-            this.btn_Exercicios.Text = "Exercicios";
+            this.btn_Exercicios.Size = new System.Drawing.Size(75, 23);
+            this.btn_Exercicios.TabIndex = 1;
+            this.btn_Exercicios.Text = "Exercícios";
             this.btn_Exercicios.UseVisualStyleBackColor = true;
             this.btn_Exercicios.Click += new System.EventHandler(this.btn_Exercicios_Click);
             // 
-            // label1
+            // btn_Voltar
             // 
-            this.label1.AutoSize = true;
-            this.label1.Location = new System.Drawing.Point(94, 24);
-            this.label1.Name = "label1";
-            this.label1.Size = new System.Drawing.Size(145, 13);
-            this.label1.TabIndex = 0;
-            this.label1.Text = "Selecione a opção desejada.";
+            this.btn_Voltar.Location = new System.Drawing.Point(12, 103);
+            this.btn_Voltar.Name = "btn_Voltar";
+            this.btn_Voltar.Size = new System.Drawing.Size(75, 23);
+            this.btn_Voltar.TabIndex = 2;
+            this.btn_Voltar.Text = "Voltar";
+            this.btn_Voltar.UseVisualStyleBackColor = true;
+            this.btn_Voltar.Click += new System.EventHandler(this.btn_Voltar_Click);
             // 
-            // btn_Sair
-            // 
-            this.btn_Sair.Location = new System.Drawing.Point(183, 103);
-            this.btn_Sair.Name = "btn_Sair";
-            this.btn_Sair.Size = new System.Drawing.Size(130, 23);
-            this.btn_Sair.TabIndex = 3;
-            this.btn_Sair.Text = "Sair";
-            this.btn_Sair.UseVisualStyleBackColor = true;
-            this.btn_Sair.Click += new System.EventHandler(this.btn_Sair_Click);
-            // 
-            // FormMenu
+            // FormLancHorizontal
             // 
             this.AutoScaleDimensions = new System.Drawing.SizeF(6F, 13F);
             this.AutoScaleMode = System.Windows.Forms.AutoScaleMode.Font;
-            this.ClientSize = new System.Drawing.Size(342, 138);
-            this.Controls.Add(this.btn_Sair);
-            this.Controls.Add(this.label1);
+            this.ClientSize = new System.Drawing.Size(305, 138);
+            this.Controls.Add(this.btn_Voltar);
             this.Controls.Add(this.btn_Exercicios);
             this.Controls.Add(this.btn_Teoria);
-            this.Name = "FormMenu";
-            this.Text = "Menu - Lançamento Horizontal";
+            this.Name = "FormLancHorizontal";
+            this.Text = "Lançamento Horizontal";
             this.ResumeLayout(false);
-            this.PerformLayout();
 
         }
 
@@ -93,8 +81,6 @@
 
         private System.Windows.Forms.Button btn_Teoria;
         private System.Windows.Forms.Button btn_Exercicios;
-        private System.Windows.Forms.Label label1;
-        private System.Windows.Forms.Button btn_Sair;
+        private System.Windows.Forms.Button btn_Voltar;
     }
 }
-
